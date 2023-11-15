@@ -348,13 +348,65 @@ html ,body{
 }
 footer{
     width: 100%;
-    height: 200px;
+    height:150px;
     background-color: black ;
     overflow: hidden;
     
+    
+    
+}
+#upside{
+    display: flex;
 }
 #rightfo{
     width: 50%;
-    height: 200px;
-    background-color: red;
+    height: 50px;
+    background-color:black;
+    
+}
+#leftfo{
+    width: 50%;
+    margin-top: 50px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    padding: 0vw 10vw;
+    
+}
+#icons{
+    
+    width: auto;
+    height: 100px;
+    
+    
+}
+#icons a{
+    gap: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+#rightfo{
+    padding: 0vw 0%;
+    
+    
+    padding-right: 10vw;
+}
+#icons1{
+    align-items: center;
+    text-align: center;
+    margin-left: 150px;
+
+
+}
+#copy{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+#copy a{
+    text-decoration: none;
+    color: white;
+    
 }
