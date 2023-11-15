@@ -204,7 +204,7 @@ html ,body{
     background-color: #D9D9D9;
     padding: 0vw 10vw;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 #images{
     display: flex;
@@ -327,4 +327,34 @@ html ,body{
     margin-top: 20px;
     
     filter: drop-shadow(0 0 50px black);
+}
+#lastcon{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0vw 10vw;
+}
+#lastconp{
+    background-color: #D9D9D9;
+    padding: 10px 50px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    filter: drop-shadow(0 0 10px black);
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black ;
+    overflow: hidden;
+    
+}
+#rightfo{
+    width: 50%;
+    height: 200px;
+    background-color: red;
 }
