@@ -55,7 +55,16 @@ html ,body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    filter: drop-shadow(0 0 10px #ff6f00);
+    filter: drop-shadow(0 0 5px #c3ae9b);
+    transition: 0.5s all ease-in-out;
+}
+#nleft img:hover{
+    top: -20px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
 }
 #hero{
     
@@ -188,6 +197,9 @@ html ,body{
     margin-top: -40px;
     margin-right: 50px;
 }
+#myworkcon img:hover{
+    cursor: not-allowed;
+}
 #tech{
     
     justify-content: center;
@@ -250,6 +262,9 @@ html ,body{
  
     
 }
+#hobbie1:hover{
+    cursor: not-allowed;
+}
 #hobbie1 p{
     margin-top: 20px;
     background-color: rgb(0,0,0);
@@ -284,6 +299,9 @@ html ,body{
     letter-spacing: 2px;
     font-size: 13px;
 }
+#hobbie2:hover{
+    cursor: not-allowed;
+}
 #hobbie3{
     height: 300px;
     width: 180px;
@@ -308,6 +326,9 @@ html ,body{
     letter-spacing: 2px;
     font-size: 13px;
     margin-top: 100px;
+}
+#hobbie3:hover{
+    cursor: not-allowed;
 }
   
 
@@ -386,6 +407,7 @@ footer{
     color: white;
     margin-right: 10px;
 }
+
 #rightfo{
     padding: 0vw 0%;
     
