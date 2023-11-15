@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    
+    display: flex;
+    
+    position: relative;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    
+}
+#nav a{
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    filter: drop-shadow(0 5px 10px black);
+    
+}
+
+#nright{
+    display: flex;
+    gap: 40px;
+    
+    position: relative;
+    
+}
+#nright a{
+    transition: 0.2s ease-in-out;  
+}
+
+#nright a:hover{
+    font-size: 15px;
+}
+#nleft{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nleft img{
+    position: relative;
+    top: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px #ff6f00);
+}
+#hero{
+    
+    height: 500px;
+}
+#hero img{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    top: 100px;
+    left: 220px;
+    z-index: 1;
+}
+#herocon{
+    position: absolute;
+    top: 150px;
+    left: 365px;
+    font-size: 30px;
+    z-index: 2;
+    filter: drop-shadow(0 20px 20px  black);
+    letter-spacing: 7px;
+    
+}
+#boxes{
+    padding: 10vw;
+}
+#box1{
+    position: relative;
+    top: -100px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 7% ;
+    background-color: #D9D9D9;
+    rotate: 30deg;
+    filter: blur(2px);
+}
+#box2{
+    position: relative;
+    left: 450px;
+    top: -400px;
+    height:  150px;
+    width: 150px;
+    border-radius: 7% ;
+    background-color: #D9D9D9;
+    rotate: 30deg;
+    filter: blur(2px);
+    z-index: 0;
+}
+#box3{
+    position: relative;
+    top: -400px;
+    left: 800px;
+    height:  80px;
+    width: 80px;
+    border-radius: 7% ;
+    background-color: #D9D9D9;
+    rotate: 30deg;
+    filter: blur(2px);
+    z-index: 0;
+}
+#box4{
+    position: relative;
+    top: -700px;
+    left: 800px;
+    
+    height: 20px;
+    width: 20px;
+    border-radius: 7% ;
+    background-color: #D9D9D9;
+    rotate: 30deg;
+    filter: blur(2px);
+}
+
+#herop{
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 10px;
+    color: blacks;
+    filter: drop-shadow(0 0   5px black);
+    margin-bottom: 50px;
+}
+#hero1{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+#hero2{
+    
+   
+ text-align: left;
+ justify-content: center;
+ align-items: center;
+ padding: 0vw 10vw;
+
+}
+#hero2 p{
+    background-color: #D9D9D9;
+    padding: 10px 50px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 13px;
+    filter: drop-shadow(0 0 10px black);
+    
+}
+.mywork{
+    position: relative;
+    padding: 0vw 10vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    
+    
+}
+.mywork p{
+    
+    margin-bottom: 100px;
+    letter-spacing:8px;
+    filter: drop-shadow(0 0 10px black);
+}
+#myworkcon{
+    display: flex;
+
+}
+#myworkcon img{
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+#tech{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0vw 10vw;
+    margin-bottom: 100px;
+}
+#tech p{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+#images{
+    background-color: #D9D9D9;
+    padding: 0vw 10vw;
+    height: 50px;
+    border-radius: 20px;
+}
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    text-align: center;
+}
+#images img{
+    width: 40px;
+    height: 40px;
+    
+}
+#hobbies{
+    
+    height: 500px;
+    
+    align-items: center;
+   
+    text-align: center;
+    
+}
+#hobbie{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    padding: 0vw 12vw;
+}
+#hobbie1{
+   height: 300px;
+   width: 180px;
+   background-image: url(pexels-tom-swinnen-2347459.jpg);
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   overflow: hidden;
+   color: #D9D9D9;
+    
+}
+#hobbie2{
+    height: 300px;
+    width: 180px;
+    background-image: url(pexels-jacob-colvin-1761279.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: #D9D9D9;
+}
+#hobbie3{
+    height: 300px;
+    width: 180px;
+    background-image: url(pexels-matheus-bertelli-1144687.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: #D9D9D9;
+    
+}
+#hobbie3 p{
+    top: 30%;
+    left: 50%;
+    transform: translate(0%,650%);
+}
+  
+
+.hobbiep{
+    font-size: 13px;
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-650%);
+    letter-spacing: 5px;
+    
+}
+
