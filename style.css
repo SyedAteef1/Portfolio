@@ -236,7 +236,7 @@ html ,body{
 #hobbie1{
    height: 300px;
    width: 180px;
-   background-image: url(pexels-tom-swinnen-2347459.jpg);
+   background-image: url(images/pexels-tom-swinnen-2347459.jpg);
    background-position: center;
    background-size: cover;
    text-align: center;
@@ -244,35 +244,70 @@ html ,body{
    align-items: center;
    border-radius: 10px;
    overflow: hidden;
-   color: #D9D9D9;
+   color: white;
+   
+   
+ 
     
+}
+#hobbie1 p{
+    margin-top: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.1);
+    
+    z-index: 1;
+}
+#hobbiep1{
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 #hobbie2{
     height: 300px;
     width: 180px;
-    background-image: url(pexels-jacob-colvin-1761279.jpg);
+    background-image: url(images/pexels-jacob-colvin-1761279.jpg);
     background-position: center;
     background-size: cover;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    color: #D9D9D9;
+    color: white;
+}
+#hobbie2 p{
+    margin-top: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.3);
+    
+    z-index: 1;
+}
+#hobbiep2{
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 #hobbie3{
     height: 300px;
     width: 180px;
-    background-image: url(pexels-matheus-bertelli-1144687.jpg);
+    background-image: url(images/pexels-matheus-bertelli-1144687.jpg);
+    
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    color: #D9D9D9;
+    color: white;
     
 }
+
 #hobbie3 p{
-    top: 30%;
-    left: 50%;
-    transform: translate(0%,650%);
+    margin-top: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.3);
+   
+    z-index: 1;
+    border-radius: 10px;
+}
+#hobbiep3{
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-top: 100px;
 }
   
 
@@ -280,10 +315,16 @@ html ,body{
     font-size: 13px;
     color: white;
     position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-650%);
+    
     letter-spacing: 5px;
     
 }
 
+#hobbiep1{
+    
+    display: block;
+    z-index: inherit;
+    margin-top: 20px;
+    
+    filter: drop-shadow(0 0 50px black);
+}
